@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/html-css-bootstrap-solution-V_97UwYI0K)
 - Live Site URL: [live site URL](https://sonnen99.github.io/Challenge-3-column-preview-card-component-main/)
 
 ## My process
