@@ -1,0 +1,118 @@
+body {
+    background-color: #F2F2F2;
+    font-family: 'Lexend Deca', serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: #F2F2F2;
+    padding: 5%;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', serif;
+    font-weight: 700;
+}
+
+.card {
+    color: white;
+    text-align: left;
+    padding: 20px;
+    height: 22rem;
+    margin: 0 auto;
+}
+
+.row {
+    justify-content: center;
+    justify-items: center;
+
+}
+.col {
+    padding: 0;
+}
+
+.icon {
+    width: 3rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: transparent;
+    border-radius: 40px;
+    border-width: 2px;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #F2F2F2;
+    border-width: 2px;
+    border-color: #F2F2F2;
+}
+
+.sedan-btn {
+    color: #E28525;
+}
+
+.suvs-btn {
+    color: #016972;
+}
+
+.luxury-btn {
+    color: #016972;
+}
+
+.sedan-card {
+    background-color: #E28525;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+.suvs-card {
+    background-color: #016972;
+    border-radius: 0%;
+    
+}
+
+.luxury-card {
+    background-color: #00403F;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+@media (max-width: 767px) {
+    .card {
+        width: 18rem;
+        
+    }
+    .sedan-card {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 0%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 0%;
+    }
+
+    .suvs-card {
+        border-radius: 0%;
+    }
+
+    .luxury-card {
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 20px;
+    }
+}
+
+.attribution {
+    color: black;
+    margin-top: 10px;
+}
